@@ -1,0 +1,213 @@
+/*
+Name: Abdullah Mohammad
+Date: 08/28/2018
+Section: CSE190e
+Instructor: Lauren Bricker
+This is the index.css page for my personal web portfolio. It contains all the
+stylistic elements used by the html pages and gives the website a cohesive
+theme. 
+*/
+
+html{
+  height:100%;
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+
+#index, #about{
+  background-image: url(Supra.PNG);
+}
+
+body{
+  height: inherit;
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+}
+
+
+section, #article1, #article2{
+  padding-top:15px;
+  box-sizing:border-box;
+  margin-bottom:50px;
+  /border: 4px solid #47476b;
+  /border-radius: 10px;
+  overflow-y: auto;
+}
+
+#banner, .nobackground{
+  height: 150px;
+  background-image: url(Logo.PNG);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 15%, 15%;
+}
+
+.nobackground{
+  background-color: #444;
+  text-align: center;
+}
+
+nav{
+  padding-top: 25px;
+  width: 35%;
+  float: right;
+  text-align: center;
+
+}
+
+nav a{
+  padding: 20px 20px;
+  color: #ddd;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+a:hover{
+  color: blue;
+}
+
+a.active{
+  color: yellow;
+}
+
+#article1{
+  padding-top:250px;
+  padding-left: 200px;
+  float:left;
+  width: 49%;
+}
+
+#article2{
+  padding-top:250px;
+  padding-right: 200px;
+  float: right;
+  width: 49%;
+}
+
+p{
+  font-size: 20px;
+  text-align: justify;
+}
+
+.proj{
+  width: 60%;
+}
+
+.quicklinks{
+  text-decoration: none;
+}
+
+.aboutinfo{
+  text-align: justify;
+  margin-right:400px;
+}
+
+aside{
+  padding-top: 300px;
+}
+
+
+
+div{
+  width: 80%;
+  float: right;
+}
+
+#div2{
+  margin-top: 250px;
+}
+
+li{
+  font-size: 24px;
+}
+
+ul{
+  font-size: 24px;
+}
+
+#SeattleSkyline{
+  height: auto;
+  max-width: 100%;
+  float: left;
+  margin-bottom: 30px;
+}
+
+#BC{
+  height: auto;
+  max-width: 100%;
+  float: right;
+  margin-bottom: 30px;
+}
+
+#Hometown, #NFM{
+  height: 15%;
+  width: 66%;
+}
+
+#quote{
+  text-align: left;
+  margin-top: 50px;
+  font-size: 20px;
+  color: orange;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1{
+  font-size: 64px;
+  font-weight: bold;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: #ddd;
+  text-align: center;
+}
+
+h2{
+  color: #ddd;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h3{
+  font-size: 20px;
+  text-align: center;
+  color: skyblue;
+}
+
+h4{
+  width: 55%;
+  float:right;
+  color: #ddd;
+  text-align: left;
+  font-size: 26px;
+}
+
+h5{
+  text-align: left;
+  font-size: 28px;
+  color: skyblue;
+}
+
+h6{
+  text-align: left;
+  font-size: 36px;
+  font-family: Impact, Charcoal, sans-serif;
+  color: #444;
+}
+
+footer{
+  height: 120px;
+  background-color: #1a1a1a;
+  background-image: url(SOS.PNG);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#Contactinfo{
+    color: #ddd;
+    width: 45%;
+    float: left;
+    font-size: 25px;
+}
